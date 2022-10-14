@@ -1,0 +1,121 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.list{
+    overflow: hidden;
+    list-style-type: none; 
+    position: relative; 
+}
+.list li{
+    float: left;
+    padding-top: 220px;
+    display:inline-block;
+    padding-left: 110px;
+}
+.img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8{
+    margin-top: 10px;
+    /* margin-left: 30px; */
+    position: absolute;
+    /* width: 20%; */
+}
+.img2, .img3, .img4, .img5, .img6, .img7, .img8{
+    margin-left: 40px;
+}
+ .li1, .li2, .li3, .li4, .li5 , .li6, .li7, .li8{
+     
+    font-weight: bold;
+    font-size: 22px;
+    font-style: italic;
+    color: rgb(67, 18, 71);
+    padding-top: -10px;
+
+ }
+ .img2 , .img3{
+    margin-top: 45px;
+ }
+ .img2{
+    margin-left: 90px;
+ }
+ .li2, .li4{
+    color: rgb(80, 52, 16);
+ }
+ .li3{
+    color:rgb(20, 87, 117);
+     
+ }
+ .img3{
+    margin-left: 100px;
+}
+.img4{
+    margin-top: 22px;
+    margin-left: 50px;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.content{
+    overflow: auto;
+}
+.img5{
+    margin-top: 260px;
+    margin-left: -990px;
+}
+.img6{
+    margin-top: 260px;
+    margin-left: -700px;
+}
+.img7{
+    margin-top: 260px;
+    margin-left: -390px;
+}
+.img8{
+    margin-top: 260px;
+    margin-left: -120px;
+}
+.li6{
+    margin-left: 90px;
+}
+.li7{
+    margin-left: 60px;
+}
+#content{
+    /* margin-top: 50px; */
+    width: 50%;
+    min-height: 70px;
+    background-color: rgb(189, 191, 192);
+    margin:50px auto;
+    border-radius: 10px;
+    font-size: 21px;
+    color: white;
+    font-style: italic;
+    text-align: center;
+}
+#addToCart{
+    font-size: 18px;
+    color: rgb(238, 245, 238);
+    width: 160px;
+    height: 50px;
+    border-radius: 10px;
+    border: 0;
+    background-color: rgb(43, 148, 197);
+    margin: auto;
+    font-style: italic;
+}
+#info{
+    margin: auto;
+    width: 130px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(182, 184, 185); 
+    margin-top:60px ;
+    color: rgb(245, 240, 240);
+    font-size:18px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+
